@@ -1,0 +1,167 @@
+/*****BASE STYLES*****/
+
+@font-face {
+    font-family: wisdom;
+    src: url('../fonts/wisdom-script.woff') format('woff');
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+}
+
+h1, h2, h3, h4, a {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul, p {
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+}
+
+/*****GRID*****/
+
+.full-width {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+
+/*****HEADER*****/
+
+header {
+    font-weight: bold;
+    height: 404px;
+}
+
+header h1 {
+    font-size: 30px;
+    line-height: 30px;
+    padding: 40px 0;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul {
+    padding: 43px 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+#cover-image {
+    display: block;
+    margin: 0 auto;
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+
+/*****ABOUT*****/
+
+#about .full-width {
+    border-bottom: 1px solid #eeeeee;
+}
+
+#about h2 {
+    color: #77a466;
+    font-size: 18px;
+    padding: 30px 0;
+}
+
+#about p {
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+
+/*****INFO*****/
+
+#menu, #reviews, #contact {
+    height: 216px;
+}
+
+#info h3 {
+    font-size: 12px;
+    padding: 25px 0;
+}
+
+#menu ul {
+    padding: 0;
+}
+
+#menu li {
+    color: #77a466;
+    line-height: 18px;
+    list-style-type: none;  
+    padding-bottom: 25px;  
+}
+
+#reviews {
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    padding: 0 30px;
+    width: 338px;
+}
+
+#reviews p {
+    line-height: 21px;
+    padding-bottom: 25px;
+}
+
+#contact {
+    padding-left: 30px;
+    width: 370px;
+}
+
+#contact p {
+    line-height: 24px;
+}
+
+
+/*****FOOTER*****/
+
+footer .full-width {
+    border-top: 1px solid #eeeeee;
+    clear: both;
+}
+
+footer h4 {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer h4 span {
+    color: #77a466;
+    font-family: wisdom;
+    text-transform: lowercase;
+}
